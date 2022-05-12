@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Amstagram';
+    src: url('Amstagram.woff2') format('woff2'),
+        url('Amstagram.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.amstagram {
+    font-family: 'Amstagram';
+    font-size: 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 8px rgba(000,000,000,.5);
+}
+.card .amstagram{
+	font-family: 'Amstagram';
+    font-size: 3rem;
+    text-shadow: none;
+}

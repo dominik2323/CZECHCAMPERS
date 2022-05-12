@@ -1,0 +1,183 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+.rounded {
+    border-radius: 2.3rem!important;
+}
+
+.rounded2 {
+    border-radius: 1.4rem!important;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 5px 3px rgba(000,000,000,.15) !important;
+}
+
+.card:hover{
+	box-shadow: 0px 0px 5px 3px rgba(000,000,000,.15) !important;
+	transition: .3s;
+}
+
+.card{
+	transition: .3s;
+}
+
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+    padding-top: 7px;
+/*    background-color: #207871;*/
+}
+
+.icon-square i {
+    color: #207871;
+}
+
+.hp-bg {
+    background: url(img/hp-bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a .card{
+	color: black;
+}
+/*
+a:hover .card{
+	box-shadow: 0px 0px 5px 3px rgba(32, 120, 113,.6) !important;
+	transition: .3s;
+}
+*/
+a{
+	text-decoration: none;
+}
+
+.header{
+	height: 550px;
+}
+
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	color: #207871;
+}
+
+.nabidka .card:hover img {
+    transform: scale(1.08);
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.nabidka .card {
+    overflow: hidden;
+}
+
+.nabidka .card img{
+	transform: scale(1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.amstagram {
+    font-family: 'Amstagram';
+    font-size: 7rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 8px rgba(000,000,000,.5);
+}
+
+.amstagram2 {
+    font-family: 'Amstagram';
+    font-size: 5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-shadow: 0px 0px 8px rgba(000,000,000,.5);
+}
+
+.smile {
+    font-size: 16rem;
+    transform: rotate(70deg);
+    margin: 0 auto;
+    bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 0px 0px 8px rgba(000,000,000,.5);
+}
+
+@media(max-width: 425px){
+	.smile {
+    font-size: 12rem;
+    transform: rotate(70deg);
+    margin: 0 auto;
+    bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 0px 0px 8px rgba(000,000,000,.5);
+}
+}
+
+.card .amstagram{
+	font-family: 'Amstagram';
+    font-size: 3rem;
+    text-shadow: none;
+}
+
+.hp-kerouacShort {
+    background: url(img/hp-kerouacShort.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hp-kerouacLhort {
+    background: url(img/hp-kerouacLong.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-shadow{
+	text-shadow: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: rgba(32, 120, 113,.4);
+    box-shadow: none;
+}
+
+.galleria-info-description a {color: #bbb;}
+.cred{margin-top:20px;font-size:11px;}
+#galleria{height:320px}
+.galleria-image {
+    background: transparent !important;
+}
+.galleria-plus {
+opacity: 0 !important;
+}
